@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  /* display: flex;. */
+  /* place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+  /* --tw-bg-opacity: 1; */
+  /* background-color: rgb(15 23 35 / var(--tw-bg-opacity)); */
+  font-family: "Source Sans 3", sans-serif;
+  background: #081a26;
+}
+
+.text_input {
+  @apply border-[1px] border-input_box_gray bg-transparent mb-5 h-[45px] text-[14px] font-light text-white rounded-md;
+}
+
+.edit-form-input {
+  @apply border-[1px] border-font_light_gray bg-transparent mb-3 h-[45px] text-[14px] font-light text-font_light_gray rounded-md;
+}
+
+.react-player video {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 5px;
+}
